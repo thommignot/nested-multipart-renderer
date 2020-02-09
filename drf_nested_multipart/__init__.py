@@ -1,8 +1,8 @@
 from rest_framework import settings
 
 
-settings.DEFAULTS['TEST_REQUEST_RENDERER_CLASSES'].append(
-    'drf_nested_multipart.renderers.NestedMultiPartRenderer'
+settings.DEFAULTS['TEST_REQUEST_RENDERER_CLASSES'] += (
+    'drf_nested_multipart.renderers.NestedMultiPartRenderer',
 )
 
 
