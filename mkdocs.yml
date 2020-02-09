@@ -1,0 +1,4 @@
+site_name: nested-multipart-renderer
+site_description: Support encoding of complex objects to multipart format
+repo_url: https://github.com/thommignot/nested-multipart-renderer
+site_dir: html
